@@ -1,0 +1,1624 @@
+@font-face{
+	src: url(../fonts/OpenSans-Regular.ttf);
+	font-family: open-reg;
+}
+@font-face{
+	src: url(../fonts/OpenSans-Bold.ttf);
+	font-family: open-bold;
+}
+@font-face{
+	src: url(../fonts/Montserrat-Regular.ttf);
+	font-family: mont-reg;
+}
+@font-face{
+	src: url(../fonts/Montserrat-Bold.ttf);
+	font-family: mont-bold;
+}
+@font-face{
+	src: url(../fonts/Montserrat-Italic.ttf);
+	font-family: mont-italic;
+}
+@font-face{
+	src: url(../fonts/Lato-Regular.ttf);
+	font-family: lato-reg;
+}
+.container{
+	width: 1187px;
+	margin: 0 auto;
+}
+.topbar{				/*********topbar strt****/
+	background-image: url(../img/header.gif);
+	background-repeat: no-repeat;
+}
+.lefttop h2{
+	font-family: mont-reg;
+	color: white;
+	font-size: 15px;
+	margin-top: 34px;
+	margin-bottom: 8px;
+}
+.lefttop form{
+	margin-bottom: 45px;
+}
+.lefttop form input{
+	width: 75%;
+	padding: 5px 0 5px 11px;
+}
+.lefttop form button{
+	font-family: mont-reg;
+	border: none;
+	background: #075386;
+	color: white;
+	padding: 7px 16px 5px 16px;
+	margin-left: -5px;
+}
+.logo{
+	margin-top: 22px;
+}
+.topright p{
+	font-family: lato-reg;
+	color: white;
+	font-size: 12px;
+	text-align: right;
+	margin-top: 40px;
+	margin-bottom: 2px;
+}
+.topicon{
+	margin-left: 63px;
+	margin-top: 7px;
+}
+.topicon i{
+	color: white;
+	border: 1px solid white;
+	height: 38px;
+	width: 36px;
+	padding: 10px;
+	border-radius: 20px;
+	margin-left: 10px;
+}
+/*********header strt**********/
+header{
+	background: #642c90;
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding: 0;
+}
+.navbar .container-fluid {
+    padding: 0;
+}
+a.nav-link.active {
+    background: #461b6c !important;
+}
+a.nav-link {
+    font-family: 'mont-reg';
+    color: white !important;
+    padding: 22px 23px 23px 23px !important;
+    font-size: 14px;	
+}
+a.nav-link.activehire {
+    background: #075385;
+}
+/************header end************/
+
+/****************headerslider***************/
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 15%;
+    bottom: 1.25rem;
+    left: 15% !important;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.mainchange{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.leftchange{
+	width: 48%;
+	margin-left: -86px;
+}
+.leftchange p{
+	text-align: left;
+	font-family: mont-reg;
+	margin-bottom: 0;
+}
+.leftchange h1{
+	text-align: left;
+	width: 71%;
+	font-size: 54px;
+	margin-bottom: 54px;
+}
+.leftchange h1 span{
+	font-family: mont-reg;;
+}
+.leftchange form button{
+	background: #1a75bb;
+	color: white;
+	border: none;
+	font-size: 14px;
+	height: 51px;
+	width: 220px;
+	border-radius: 4px;
+	margin-left: -230px;
+}
+.rightchange{
+	width: 43%;
+	background: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: -108px;
+}
+.application{
+	width: 95%;
+	margin: 0 auto;
+	background: #e7ecf2;
+	padding: 35px 0 38px 16px;
+	border-bottom: 1px solid white;
+}
+.speaker{
+	width: 95%;
+	margin: 0 auto;
+	background: #e7ecf2;
+	padding: 35px 0 38px 16px;
+	border-bottom: 1px solid white;
+}
+.application.active-appli{
+	background: #1a75bb;
+}
+.application.active-appli h1{
+	color: white;
+}
+.application.active-appli p{
+	color: #4691ca;
+}
+.speaker:hover{
+	background: #1a75bb;
+}
+.speaker:hover h1{
+	color: white;
+}
+.speaker:hover p{
+	color: white;
+}
+.speakericonwhite{
+	display: none;
+}
+.speaker:hover .speakericonblue{
+	display: none;
+}
+.speaker:hover .speakericonwhite{
+	display: block;
+}
+.speakericonwhite{
+	display: none;
+}
+.registervote{
+	margin-left: -18px;
+}
+.registervote h1{
+	font-family: mont-reg;
+	font-size: 20px;
+	text-align: left;
+	margin-bottom: 0;
+	color: #3f69a5;
+}
+.registervote p{
+	font-family: mont-reg;
+	font-size: 12px;
+	text-align: left;
+	color: #7d7e80;
+}
+/*****************headerclose***********/
+.candidates{
+	margin-top: 90px;
+}
+.candi h1{
+	font-family: mont-reg;
+	font-weight: bold;
+	font-size: 32px;
+}
+select.pickusa, select.election, select.state, select.country, select.municipalty{
+	font-family: open-bold;
+	border: 2px solid #1b75ba;
+	color: black;
+	font-size: 13px;
+	padding: 12px 26px 12px 7px;
+    margin-left: 11px;
+}
+select.district{
+	font-family: open-bold;
+	border: 2px solid #1b75ba;
+	color: black;
+	font-size: 13px;
+	padding: 12px 26px 12px 7px;
+	margin-bottom: 34px;
+	margin-top: 14px;
+	margin-left: 709px;
+}
+.mens img{
+	width: 100%;
+}
+.mens h1{
+	font-family: mont-reg;
+	color: #333333;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 22px;
+	margin-bottom: 0;
+}
+.mens p{
+	font-family: mont-reg;
+	color: #9e9e9e;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+.elected h1{
+	font-family: mont-reg;
+	font-weight: bold;
+	font-size: 31px;
+}
+.elected p{
+	font-family: mont-reg;
+	font-size: 13px;
+	color: #;
+}
+.candidates2{
+	margin-top: 129px;
+}
+select.election2, select.state2, select.country2, select.municipalty2{
+	font-family: open-bold;
+	border: 2px solid #1b75ba;
+	color: black;
+	font-size: 13px;
+	padding: 12px 26px 12px 7px;
+	margin-left: 19px;
+}
+.electedselecter2{
+	margin-left: 289px;
+	margin-top: 14px;
+}
+select.pickusa2{
+	font-family: open-bold;
+	border: 2px solid #1b75ba;
+	color: black;
+	font-size: 13px;
+	padding: 12px 26px 12px 7px;
+	margin-left: 20px;
+}
+select.district2{
+	font-family: open-bold;
+	border: 2px solid #1b75ba;
+	color: black;
+	font-size: 13px;
+	padding: 12px 26px 12px 7px;
+}
+/*************candidates end**************/
+.polls{
+	margin-top: 166px;
+}
+.polls h1{
+	font-family: mont-reg;
+	font-weight: 600;
+}
+.polls p{
+	font-family: mont-reg;
+	color: #868686;
+	font-size: 12px;
+}
+.leftslider img{
+	width: 100%;
+}
+.rightslider{
+	background: #bf0d3f;
+}
+.rightslider h1{
+	font-family: mont-reg;
+	color: white;
+	text-align: center;
+	height: 350px;
+	line-height: 350px;
+	font-size: 35px;
+}
+.bottomoption{
+	width: 80%;
+	margin: 0 auto;
+}
+.bottomoption.slick-initialized.slick-slider.slick-dotted {
+    margin-top: -49px;
+}
+.option1, .option2, .option3, .option4, .option5, .option6{
+	padding: 22px 0;
+	background: white;
+	box-shadow: 2px 5px 15px #e9e9e9;
+}
+.option1.activeoption{
+	background: #c10d3d;
+	color: white;
+	font-family: mont-reg;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+}
+.option2 h3, .option3 h3, .option4 h3, .option5 h3, .option6 h3{
+	color: #c10d3d;
+	font-family: mont-reg;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+}
+.option2 p, .option3 p, .option4 p, .option5 p, .option6 p{
+	color: #c10d3d;
+	font-family: mont-reg;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 600;
+}
+.bottomoption button.slick-prev.slick-arrow::before {
+    content: url(../img/leftarrow.gif);
+    background-color: white;
+    padding: 25px;
+    position: absolute;
+    top: -7px;
+    left: 20px;
+    box-shadow: 0px 10px 21px 0px rgb(187 187 187 / 43%)
+}
+.bottomoption button.slick-prev.slick-arrow {
+    top: 41%;
+    left: -11%;
+}
+.bottomoption button.slick-next.slick-arrow::before{
+	content: url(../img/rightarrow.gif);
+	background-color: white;
+    padding: 25px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    box-shadow: 0px 10px 21px 0px rgb(187 187 187 / 43%)
+}
+.bottomoption button.slick-next.slick-arrow {
+    top: 39%;
+    right: -3%;
+}
+.Campaign-bottomoption button.slick-prev.slick-arrow::before {
+    content: url(../img/leftarrow.gif);
+    background-color: white;
+    padding: 25px;
+    position: absolute;
+    top: -22px;
+    left: 20px;
+    box-shadow: 0px 10px 21px 0px rgb(187 187 187 / 43%)
+}
+.Campaign-bottomoption button.slick-prev.slick-arrow {
+    top: 41%;
+    left: -11%;
+}
+.Campaign-bottomoption button.slick-next.slick-arrow::before{
+	content: url(../img/rightarrow.gif);
+	background-color: white;
+    padding: 25px;
+    position: absolute;
+    top: -22px;
+    left: -7px;
+    box-shadow: 0px 10px 21px 0px rgb(187 187 187 / 43%)
+}
+.Campaign-bottomoption button.slick-next.slick-arrow {
+    top: 39%;
+    right: -3%;
+}
+/**************michigan end*******************/
+
+.mainamazon{
+	padding-top: 140px;
+	width: 97%;
+	margin: 0 auto;
+}
+.leftamazon{
+	background: #2b388f;
+	padding-bottom:64px;
+}
+.tools{
+	margin-top: 45px;
+	margin-left: 120px;
+}
+.tools h1{
+	font-family: mont-reg;
+	font-weight: bold;
+	font-size: 34px;
+	margin-bottom: 0;
+	color: white;
+}
+.tools h2{
+	font-family: mont-reg;
+	font-size: 40px;
+	margin-top: 0;
+	color: white;
+}
+.tools p{
+	font-family: mont-reg;
+	color: white;
+	font-size: 15px;
+	margin-bottom: 28px;
+	line-height: 2.0;
+}
+.buy img{
+	width: 58%;
+}
+.book img{
+	width: 85%;
+}
+.book{
+	margin-top: 45px;
+}
+.playbutton img{
+	width: 100%;
+}
+/*************amazon end*********/
+/***************************booking service******/
+.mainservice{
+	margin-top: 97px;
+}
+.service h1{
+	font-family: mont-reg;
+	font-size: 37px;
+	text-align: center;
+	margin-bottom: 19px;
+}
+.consulting-shadow{
+	background: #f6f7fb;
+}
+.consulting-shadow:hover{
+    box-shadow: 0px 14px 21px #cdcdcd;
+}
+.consul img{
+	width: 100%;
+}
+.consulinfo{
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.consulinfo h1{
+	font-family: mont-reg;
+	font-weight: bold;
+	font-size: 18px;
+}
+.consulinfo p{
+	font-family: mont-italic;
+	color: #99999f;
+}
+.consulinfo a{
+	text-decoration: none;
+	font-family: mont-bold;
+	color: #a33444;
+	margin-bottom: 0;
+	font-size: 12px;
+}
+.traininginfo{
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.traininginfo h1{
+	font-family: mont-reg;
+	font-weight: bold;
+	font-size: 18px;
+}
+.traininginfo p{
+	font-family: mont-italic;
+	color: #99999f;
+	margin-bottom: 0;
+}
+.traininginfo a{
+	text-decoration: none;
+	font-family: mont-bold;
+	color: #a33444;
+	font-size: 12px;
+}
+.politicalinfo{
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.politicalinfo h1{
+	font-family: mont-reg;
+	font-weight: bold;
+	font-size: 18px;
+}
+.politicalinfo p{
+	font-family: mont-italic;
+	color: #99999f;
+	margin-bottom: 0;
+}
+.politicalinfo a{
+	text-decoration: none;
+	font-family: mont-bold;
+	color: #a33444;
+	font-size: 12px;
+}
+.servicebutton{
+	width: 15%;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+.servicebutton form button{
+	border: none;
+	background: #9b1444;
+	font-family: mont-reg;
+	font-size: 12px;
+	color: white;
+	height: 50px;
+	width: 150px;
+	border-radius: 5px;
+	box-shadow: 0px 9px 15px #dfb5c3;
+}
+.mainupdate{
+	width: 95%;
+	margin: 0 auto;
+	background: #2b388f;
+	margin-top: 100px;
+	padding: 120px 0 115px;
+}
+.latest p{
+	color: white;
+	font-family: mont-reg;
+	font-size: 12px;
+	text-align: center;
+}
+.latest h1{
+	font-family: mont-reg;
+	color: white;
+	text-align: center;
+	font-size: 37px;
+	margin-bottom: 26px;
+}
+.trump{
+	background: #f5f7fa;
+}
+.donlad img{
+	width: 100%;
+}
+.trumpinfo{
+	width: 90%;
+	margin: 0 auto;
+	padding: 34px 0;
+}
+.trumpinfo h1{
+	font-family: mont-reg;
+	font-weight: bold;
+	color: #333333;
+	font-size: 18px;
+}
+.trumpinfo h2{
+	font-family: mont-italic;
+	font-size: 18px;
+	color: #999da6;
+}
+.trumpinfo p{
+	font-family: mont-reg;
+	font-size: 12px;
+	color: #9f9686;
+}
+.trumpinfo a{
+	font-family: mont-reg;
+	font-size: 12px;
+	color: #9b1f5c;
+	text-decoration: none;
+	font-weight: bold;
+}
+.updatebutton{
+	margin: 0 auto;
+	width: 15%;
+	margin-top: 45px;
+}
+.updatebutton form button{
+	border: none;
+	background: #9b1444;
+	font-family: mont-reg;
+	font-size: 12px;
+	color: white;
+	height: 50px;
+	width: 150px;
+	border-radius: 5px;
+	box-shadow: 0px 11px 16px #40195e;
+}
+/***********update end************/
+.socialmedia{
+	width: 99%;
+	margin-top: 100px;
+}
+.twitter{
+	background: #14468c;
+}
+.twitinfo{
+	margin: 0 auto;
+	width: 90%;
+	padding-top: 11px;
+}
+.twitinfo i{
+	color: white;
+	margin-bottom: 10px;
+}
+.twitinfo p{
+	font-family: mont-reg;
+	font-size: 11px;
+	color: #b9bec9;
+	line-height: 1.7;
+}
+.twitinfo p span{
+	font-family: mont-reg;
+	font-size: 12px;
+	color: white;
+}
+.march p{
+	font-family: mont-reg;
+	color: white;
+}
+.retweet{
+	border-right: 1px solid white;
+	margin-right: -13px;
+}
+.retweet p{
+	font-family: mont-reg;
+	font-size: 11px;
+	margin-bottom: 56px;
+	color: white;
+}
+.favorite p{
+	font-family: mont-reg;
+	font-size: 11px;	
+	color: white;
+}
+.twitinfo h1{
+	font-family: mont-italic;
+	color: white;
+	font-size: 13px;
+	padding-bottom: 29px;
+	margin-bottom: 0;
+}
+.facebook{
+	background: #0d2f5d;
+}
+.post{
+	border-right: 1px solid white;
+	margin-right: -23px;
+}
+.post p{
+	font-family: mont-reg;
+	color: white;
+	font-size: 11px;
+	margin-left: 10px;
+	margin-bottom: 56px;
+}
+.share p{
+	font-family: mont-reg;
+	color: white;
+	font-size: 11px;
+	margin-left: 10px;
+}
+.youtube{
+	background: #bf0d3f;
+}
+.youtubeinfo{
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.youtubeinfo i{
+	color: white;
+	margin-bottom: 10px;
+}
+.obama img{
+	width: 100%;
+}
+.youtubeinfo h1{
+	font-family: mont-reg;
+	color: white;
+	font-size: 15px;
+	margin-top: 15px;
+	line-height: 2.0;
+}
+.youtubeinfo h2{
+	font-family: mont-italic;
+	color: white;
+	font-size: 13px;
+}
+.instagram{
+	background: #0e1e40;
+	padding-top: 10px;
+}
+.instainfo{
+	width: 95%;
+	margin: 0 auto;
+}
+.instainfo i{
+	color: white;
+}
+.instapic{
+	margin-top: 14px;
+}
+.insta1 img,.insta2 img,.insta3 img{
+	margin-bottom: 16px;
+	width: 100%;
+}
+.instainfo h1{
+	font-family: mont-italic;
+	color: white;
+	font-size: 13px;
+}
+/******************dash board**********/
+.maindashboard{
+	background: #f6f9ff;
+	padding-top: 114px;
+	padding-bottom: 114px;
+}
+.leftdashboard p{
+	font-family: mont-reg;
+	font-size: 13px;
+	color: #666664;
+}
+.leftdashboard h1{
+	font-family: mont-reg;
+	color: #323433;
+	font-size: 40px;
+	margin-bottom: 45px;
+}
+.leftlist ul li::marker,.rightlist ul li::marker{
+	color: red;
+}
+.leftdashboard form button{
+	background: #9c1444;
+	border: none;
+	color: white;
+	font-size: 15px;
+	height: 50px;
+	width: 115px;
+	border-radius: 10px;
+	margin-top: 20px;
+	box-shadow: 2px 7px 16px #bb8ea2;
+}
+.laptop img{
+	width: 100%;
+}
+/*****************dash board end***************/
+.mainpress{
+	margin-top: 117px;
+}
+.press p{
+	font-family: mont-reg;
+	color: #7b7b7b;
+	font-size: 13px;
+	text-align: center;
+	margin-bottom: 0;
+}
+.press h1{
+	font-family: mont-reg;
+	font-weight: bold;
+	text-align: center;
+	color: #333333;
+	font-size: 40px;
+}
+.press h6{
+	font-family: mont-reg;
+	color: #7b7b7b;
+	text-align: center;
+	font-size: 13px;
+}
+.press img{
+	width: 100%;
+}
+/***************mainpress end*************/
+
+/******************campaign slider************/
+.maincampain{
+	margin-top: 100px;
+}
+.upcoming p{
+	font-family: mont-reg;
+	text-align: center;
+	font-size: 13px;
+	color: #7b7b7b;
+	margin-bottom: 0;
+}
+.upcoming h1{
+	font-family: mont-reg;
+	text-align: center;
+	font-size: 40px;
+	color: ##323232;
+	font-weight: 500;
+}
+.Campaign-left img{
+	width: 100%;
+}
+.Campaign-right{
+	background: #bf0d3f;
+}
+.camp{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.camp h1{
+	color: white;
+	font-family: mont-reg;
+	font-size: 21px;
+	width: 70%;
+	line-height: 1.5;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.location-icon{
+	color: white;
+}
+.location-p p{
+	font-family: mont-reg;
+	color: #f9e4e9;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.clock-icon{
+	color: white;
+}
+.clock-p p{
+	font-family: mont-reg;
+	color: #f9e4e9;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.camp a{
+	text-decoration: none;
+	font-family: mont-reg;
+	color: white;
+	font-weight: 600;
+}
+.Campaign-bottomoption{
+	width: 80%;
+	margin: 0 auto;
+}
+.datesactive{
+	background: #bd0c40;
+}
+.dates.datesactive p{
+	color: white;
+}
+.dates p{
+	color: #bd0c40;
+	font-family: mont-reg;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 0;
+	padding: 29px 0;
+}
+/******************campaign slider************/
+.mainvote{
+	width: 98%;
+	margin: 0 auto;
+}
+.colregister{
+	background: #e7ecf2;
+}
+.colregister:hover{
+	background: #0d2f5d;
+}
+.colregister:hover h1{
+	color: white;
+}
+.colregister:hover p{
+	color: #b0b9c0;
+}
+.regiswhite{
+	display: none;
+}
+.colregister:hover .regisblue{
+	display: none;
+}
+.colregister:hover .regiswhite{
+	display: block;
+}	
+.register{
+	padding: 30px 0 30px 42px;
+}
+.colregister.colregisteractive{
+	background: #0d2f5d;
+}
+.regisright.regisrightactive h1{
+	color: white;
+}
+.regisright.regisrightactive p{
+	color: #b5b3be;
+}
+.regisblue.heightactive img, .regiswhite.heightactive img{
+	height: 62px;
+	width: 42px;
+}
+.regisright{
+	margin-left: -25px;
+}
+.regisright h1{
+	font-family: mont-reg;
+	font-weight: bold;
+	font-size: 20px;
+	color: #215193;
+	margin-bottom: 4px;
+}
+.regisright p{
+	font-family: mont-reg;
+	color: #7e6b6d;
+	font-size: 12px;
+}
+.colinvolved{
+	background: #e7ecf2;
+}
+.colmail{
+	background: #e7ecf2;
+}
+/***************footer strt************/
+footer{
+	background: #0e1e40;
+}
+.mainfooter{
+	padding-top: 72px;
+	padding-bottom: 98px;
+}
+.footerabout  ul li{
+	display: inline-block;
+	color: white;
+	font-family: mont-reg;
+	font-size: 11px;
+	margin-left: 19px;
+	padding-bottom: 2px;
+}
+.footerabout ul li:hover {
+    border-bottom: 2px solid #3a5178;
+    color: #c4c5c7;
+    padding-bottom: 0px;
+}
+.footericon ul li{
+	display: inline-block;
+}
+.footericon ul li a{
+	text-decoration: none;
+	color: white;
+}
+.footericon ul li a i {
+    height: 38px;
+    width: 38px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 15px;
+}
+.footericon ul li a i.tumbler{
+	margin-top: 8px;
+	margin-left: 187px;
+}
+.footeraddress{
+	margin-top: 142px;
+}
+.footeraddress h6{
+	font-family: mont-reg;
+	font-size: 12px;
+	color: #c7cdbf;
+}
+.footeraddress h6 span{
+	color: white;
+}
+.footeraddress form button{
+	font-family: mont-reg;
+	font-size: 11px;
+	height: 46px;
+	width: 250px;
+	background: none;
+	border: 1px solid #928a88;
+	color: #928a88;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.footeraddress p{
+	font-family: mont-reg;
+	color: #9e9495;
+	font-size: 11px;
+	margin-bottom: 0;
+}
+.footeremial{
+	margin-top: 42px;
+}
+.footeremial h6{
+	font-family: mont-reg;
+	color: #e6f2ff;
+	font-size: 12px;
+}
+.footeremial h1{
+	font-family: mont-reg;
+	color: #f6f4f9;
+	font-size: 21px;
+	margin-bottom: 25px;
+}
+.footeremial p{
+	font-family: mont-reg;
+	color: #a2a0ad;
+	font-size: 15px;
+}
+.footeremial form input{
+	padding: 9px 0 9px 13px;
+	width: 100%;
+	margin-top: 8px;
+}
+.footeremial form button{
+	background: #8d1543;
+	color: white;
+	height: 40px;
+	width: 90px;
+	font-size: 10px;
+	font-family: mont-reg;
+	border: none;
+	margin-top: 11px;
+	box-shadow: 0 12px 20px #201224;
+}
+@media only screen and (max-width: 576px) and (min-width: 375px){
+	.maintop{
+		text-align: center;
+	}
+	.topbar{
+		background-repeat: repeat;
+	}
+	.topicon{
+		margin-left: 0;
+		margin-top: 13px;
+	}
+	.lefttop form {
+    	margin-bottom: 0px;
+	}
+	.lefttop form button{
+		margin-top: 5px;
+	}
+	.topright p{
+		margin-top: 5px;
+		position: absolute;
+    	top: 2%;
+    	right: 6%;
+	}
+	.topright{
+		margin-bottom: 16px;
+	}
+	.rightchange{
+		display: none;
+	}
+	.leftchange{
+    	margin-left: -1px;
+    	margin-top: -29px;
+    	width: 100%;
+	}
+	.leftchange p{
+		font-size: 22px;
+	}
+	.leftchange h1{
+		font-size: 14px;
+		margin-bottom: 7px;
+	}
+	.leftchange form button{
+		height: 32px;
+    	width: 108px;
+    	margin-left: -60%;
+    	font-size: 10px;
+	}
+	select.pickusa, select.election, select.state, select.country, select.municipalty{
+		margin-left: 0;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	select.district{
+		margin-left: 0;
+		margin-top: 0;
+	}
+	.candidates{
+		margin-top: 45px;
+	}
+	.candidates2 {
+    	margin-top: 45px;
+	}
+	select.election2, select.state2, select.country2, select.municipalty2{
+		margin-left: 0;	
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	.electedselecter2{
+		margin-left: 0;
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
+	.polls{
+		margin-top: 40px;
+	}
+	.mainamazon{
+		padding-top: 45px;
+		width: 93%;
+		margin: 0 auto;
+	}
+	.tools{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.buy img {
+    	width: 58%;
+    	margin: 0 auto;
+    	display: block;
+	}
+	.book{
+		text-align: center;
+	}
+	.mainservice{
+		margin-top: 45px;
+	}
+	.servicebutton{
+		width: 43%;
+	}
+	.mainupdate{
+		margin-top: 45px;
+	}
+	.updatebutton{
+		width: 43%;
+	}
+	.trump{
+		margin-bottom: 0;
+	}
+	.socialmedia{
+		margin-top: 40px;
+		width: 96.8%;
+	}
+	.maindashboard {
+    	padding-top: 45px;
+    	padding-bottom: 45px;
+	}
+	.laptop{
+		margin-top: 20px;
+	}
+	.mainpress{
+		margin-top: 45px;
+	}
+	.maincampain{
+		margin-top: 45px;
+	}
+	.mainvote{
+		width: 96.9%;
+		margin: 0;
+	}
+	.register {
+    	padding: 30px 0 30px 52px;
+	}
+	.regisright{
+		margin-left: 66px;
+    		margin-top: -49px;
+	}
+	.regisright h1{
+		margin-bottom: 0;
+	}
+	.footerlogo{
+		text-align: center;
+	}
+	.footerabout{
+		margin-top: 20px;
+	}
+	.footerabout ul li{
+		margin-left: 0;
+		font-size: 15px;
+		margin-bottom: 14px;
+		text-align: center;
+		display: block;
+	}
+	.footeraddress {
+    	margin-top: 70px;
+    	text-align: center;
+	}
+	.footeremial {
+    text-align: center;
+	}
+	.footericon ul {
+	    text-align: center;
+	}
+	.footericon ul li a i.tumbler{
+		margin-left: 15px;
+	}
+	.mainmichigan{
+		display: none;
+	}
+	.Campaign-slider{
+		display: none;
+	}
+}
+@media only screen and (max-width: 768px) and (min-width: 577px){
+	.topbar {
+	    background-image: url(../img/header.gif);
+	    background-repeat: inherit;
+	    text-align: center;
+	}
+	.lefttop form {
+    	margin-bottom: 22px;
+	}
+	.logo {
+		margin-left: -54px;
+		margin-top: 20px;
+	}	
+	.topright p {
+    	font-size: 15px;
+    	margin-top: 15px;
+	}	
+	.topicon {
+	    margin-bottom: 10px;
+	    margin-left: -45px;
+	    margin-top: 3px;
+	}
+	.rightchange{
+		display: none;
+	}
+	.leftchange{
+		width: 100%;
+		margin-left: 2px;
+	}
+	.leftchange p{
+    	margin-top: -48px;
+    	font-size: 20px;
+	}
+	.leftchange h1{
+		margin-bottom: 0;
+		font-size: 35px;
+		width: 100%;
+		font-family: mont-reg;
+	}
+	.leftchange form button {
+    	width: 150px;
+    	height: 40px;
+    	font-size: 13px;
+    	margin-top: 10px;
+    	margin-left: -70%;
+	}
+	.candidates{
+		margin-top: 50px;
+	}
+	.candidates2 {
+	    margin-top: 50px;
+	}
+	select.pickusa, select.election, select.state, select.country, select.municipalty{
+		margin-left: 0;
+		margin-right: 8px;
+	}
+	.candi h1{
+		font-size: 29px;
+	}
+	select.district{
+		margin-left: 0;
+	}
+	select.election2, select.state2, select.country2, select.municipalty2{
+		margin-left: 35px;
+    	margin-bottom: 16px;
+	}
+	.michigan {
+	    display: none;
+	}
+	.polls {
+	    margin-top: 50px;
+	}
+	.rightslider {
+	    width: 20% !important;
+	    background: #bf0d3f;
+	}
+	.rightslider h1 {
+	    color: white;
+	    height: 294px;
+	    line-height: 200px;
+	    font-size: 23px;
+	}
+	.bottomoption button.slick-prev.slick-arrow::before {
+	    padding: 8px;
+	    top: -20px;
+	}
+	.bottomoption button.slick-next.slick-arrow::before {
+	    padding: 8px;
+	    top: -3px;
+	    left: 4px;
+	}
+	.mainamazon {
+	    padding-top: 20px;
+	    width: 95%;
+	    margin: 0 auto;
+	}
+	.mainservice {
+	    margin-top: 30px;
+	}
+	.consulinfo {
+	    padding: 43px 0;
+	}
+	.traininginfo {
+	    padding: 41px 0;
+	}
+	.servicebutton {
+	    margin-top: 30px;
+	}
+	.mainupdate {
+	    margin-top: 30px;
+	    padding: 50px 0 50px;
+	}
+	.electedselecter2{
+		margin-top: 0;
+		margin-left: 35px;
+		margin-bottom: 15px;
+	}
+	.mainmichigan{
+		display: block;
+	}
+	.tools {
+    	margin-left: 18px;
+	}
+	.leftamazon{
+		padding-bottom: 14px;
+	}
+	.tools {
+    	margin-left: 18px;
+    	margin-top: 11px;
+	}
+	.tools h1 {
+    	font-size: 25px;
+	}
+	.tools h2 {
+    	font-size: 28px;
+    	margin-bottom: 1px;
+	}
+	.tools p {
+    	font-size: 12px;
+    	margin-bottom: 5px;
+	}
+    .socialmedia {
+	    margin: 0 auto;
+	    width: 90%;
+	    margin-top: 50px;
+	}
+	.maindashboard {
+	    padding-top: 60px;
+	    padding-bottom: 50px;
+	}
+	.mainpress {
+	    margin-top: 50px;
+	}
+	.maincampain {
+	    margin: 25px 0;
+	}
+	.retweet {
+    	border-right: 1px solid white;
+    	margin-right: -21px;
+	}
+	.retweet p {
+    	margin-left: -17px;
+	}
+	.post{
+		margin-right: -14px;
+	}
+	.post p {
+    	margin-left: -24px;
+	}
+	.share p {
+    	margin-left: -6px;
+    	font-size: 10px;
+	}
+	.Campaign-slider{
+		display: none;
+	}
+	.mainvote{
+		width: 97%;
+	}
+	.register {
+    	padding: 19px 0 11px 42px
+	}
+	.regisright h1{
+		font-size: 16px;
+	}
+	.regisblue.heightactive, .speakerwhite, .regisblue {
+    	margin-left: -34px;
+	}
+	.regiswhite {
+    	margin-left: -34px;
+	}
+	.mainfooter{
+		padding-bottom: 60px;
+		text-align: center;
+	}
+	.footerlogo img {
+    	width: 150px;
+    	margin-bottom: 20px;
+	}
+	.footerabout ul li{
+		font-size: 13px;
+    	margin-left: 26px;
+    	margin-bottom: 10px;
+	}
+	.footericon ul li a i {
+    	margin-left: 10;
+	}
+	.footericon ul li {
+	    margin-left: -44px;
+	}
+	.footericon ul li a i.tumbler {
+    	margin-top: 0px;
+    	margin-left: 10px;
+	}
+	.footeraddress {
+	    margin-top: 42px;
+	}
+}
+@media only screen and (max-width: 992px) and (min-width: 769px){
+	.topicon{
+		margin-left: 18px;
+	}
+	.logo {
+    margin-top: 40px;
+	}
+	.lefttop form input {
+    width: 70%;
+	}
+	a.nav-link{
+		padding: 22px 14px 23px 14px !important;
+		font-size: 13px;
+	}
+	.rightchange{
+		display: none;
+	}
+	.leftchange{
+		width: 100%;
+		margin-left: 2px;
+	}
+	.leftchange p{
+    	margin-top: -40px;
+    	font-size: 22px;
+	}
+	.leftchange h1{
+		margin-bottom: 0;
+		font-size: 40px;
+		width: 100%;
+		font-family: mont-reg;
+	}
+	.leftchange form button {
+    	width: 150px;
+    	height: 40px;
+    	font-size: 13px;
+    	margin-top: 10px;
+    	margin-left: -78%;
+	}
+	select.pickusa, select.election, select.state, select.country, select.municipalty {
+	    margin-top: 15px;
+	    margin-left: 12px;
+	}
+	.candidates {
+    	margin-top: 40px;
+	}
+	select.district{
+		margin-left: 11px;
+		margin-bottom: 30px;
+	}
+	select.election2, select.state2, select.country2, select.municipalty2{
+		margin-right: 20px;
+		margin-bottom: 11px;
+		margin-left: 0;
+	}
+	.candidates2 {
+    	margin-top: 40px;
+	}
+	.electedselecter2{
+		margin-left: 0;
+		margin-top: 0;
+		margin-bottom: 50px;
+	}
+	.mainamazon{
+		    margin-top: 70px;
+            padding-top: 0;
+	}
+	.mainupdate {
+	    margin-top: 50px;
+	    padding: 50px 0 50px;
+	}
+	.leftamazon{
+		padding-bottom: 23px;
+	}
+	.tools {
+    	margin-top: 16px;
+    	margin-left: 37px;
+	}
+	.tools h1{
+		font-size: 30px;
+	}
+	.tools h2{
+		font-size: 34px;
+	}
+	.tools p{
+		line-height: 1.9;
+		margin-bottom: 14px;
+	}
+	.socialmedia{
+		  width: 93%;
+          margin: 0 auto;
+          margin-top: 30px;
+	}
+	.maindashboard {
+	    padding-top: 60px;
+	    padding-bottom: 60px;
+	}
+	.mainpress {
+	    margin-top: 50px;
+	    margin-bottom: 30px;
+	}
+	.maincampain {
+	    margin-top: 50px;
+	    display: none;
+	}
+	.polls{
+		margin-top: 30px;
+}
+	.mainvote {
+    	width: 90%;
+    	margin-bottom: 30px;
+	}
+	.camp h1 {
+	    font-size: 20px;
+	    width: 85%;
+	    margin-bottom: 15px;
+	}
+	.regisblue.heightactive {
+    	margin-left: -16px;
+	}
+	.regiswhite.heightactive {
+    	margin-left: -16px;
+	}
+	.speakerwhite{
+		margin-left: -16px;
+	}
+	.regisblue{
+		margin-left: -16px;
+	}
+	.regiswhite{
+		margin-left: -16px;
+	}
+	.footericon ul li a i{
+		margin-left: 4px;
+	}
+	.footericon ul li a i.tumbler{
+		margin-left: 4px;
+	}
+	.footeraddress h6 span {
+	    line-height: 1.6;
+	}
+	.footerabout {
+    	margin-left: 72px;
+	}
+	.bottomoption button.slick-prev.slick-arrow::before {
+	    padding: 4px;
+	    top: 0px;
+	    left: 45px;
+	}
+	.bottomoption button.slick-next.slick-arrow::before {
+	    padding: 4px;
+	    top: 3px;
+	    left: -5px;
+	}
+	.michigan {
+	    display: none;
+	}
+	.mainservice {
+	    margin-top: 25px;
+	}
+	.register {
+	    padding: 25px 0 10px 20px;
+	}
+	.regisblue img {
+	    width: 75%;
+	}
+	.speakerwhite img {
+	    width: 75%;
+	}
+.regisblue.heightactive img, .regiswhite.heightactive img {
+	    height: 53px;
+	    width: 70%;
+	}
+}
